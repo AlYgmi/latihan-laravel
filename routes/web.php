@@ -25,5 +25,7 @@ Route::get('/daftar-sekolah', function () {
 });
 
 Route::get('/produk', function () {
-    return view('jual');
+    return view('jual', [
+        "image" => "logosekolahpedia.png"
+    ]);
 });
