@@ -1,6 +1,9 @@
 @extends('layouts.main')
 
-@section('container')
+@section('contrast')
+<div class="container">
+<div class="row">
+  <div class="col">
 <div class="card" style="width: 18rem;">
   <img src="https://sekolahpedia.id/medias/produk/b5887.jpg" class="card-img-top" alt="Lisensi Office A1 3656">
   <div class="card-body">
@@ -9,7 +12,9 @@
     <a href="#" class="btn btn-primary">Beli</a>
   </div>
 </div>
+</div>
 
+<div class="col">
 <div class="card" style="width: 18rem;">
   <img src="https://sekolahpedia.id/medias/produk/yvwkh.png" class="card-img-top" alt="Lisensi Mikrotik Level 4">
   <div class="card-body">
@@ -18,7 +23,9 @@
     <a href="#" class="btn btn-primary">Beli</a>
   </div>
   </div>
+</div>
   
+  <div class="col">
   <div class="card" style="width: 18rem;">
   <img src="https://sekolahpedia.id/medias/produk/h6yvz.png" class="card-img-top" alt="MIKROTIK RB 941-2ND Haplite">
   <div class="card-body">
@@ -27,7 +34,7 @@
     <a href="#" class="btn btn-primary">Beli</a>
 </div>
 </div>
-
+</div>
 <div class="card" style="width: 18rem;">
   <img src="https://sekolahpedia.id/medias/produk/c4pzz.png" class="card-img-top" alt="JASA SERVICE LAPTOP/PC dan HP">
   <div class="card-body">
@@ -54,4 +61,7 @@
     <a href="#" class="btn btn-primary">Beli</a>
   </div>
 </div>
+</div>
+</div>
+
 @endsection
