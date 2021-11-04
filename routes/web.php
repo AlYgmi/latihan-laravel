@@ -15,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index', [
-        "image" => "logosekolahpedia.png"
+        "image" => "logosekolahpedia.png",
+        "title" => "home"
     ]);
         
 });
@@ -26,6 +27,7 @@ Route::get('/daftar-sekolah', function () {
 
 Route::get('/produk', function () {
     return view('jual', [
-        "image" => "logosekolahpedia.png"
+        "image" => "logosekolahpedia.png",
+        "title" => "jual"
     ]);
 });
