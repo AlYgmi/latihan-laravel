@@ -8,3 +8,12 @@
   min-height: 100vh;
   background-color: white!important;
 }
+.text-page {
+  color: chartreuse;
+}
+.pager {
+  color: darkblue;
+}
+.kec {
+  color: brown;
+}

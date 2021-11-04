@@ -5,28 +5,33 @@
 
     
 
-        
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
             <h2 class="title">Daftar Sekolah Seluruh Indonesia</h2>
-            <p class="desc">
-                 <span class="prov">
-                    <span>34</span>
+            <p>
+                 <span class="font-weight-bold font-weight-bolder">
+                    <span class="pager">34</span>
                     Provinsi
                 </span>
-            <span class="kota">
-                <span>514</span>
-                Kota
+            <span class="font-weight-bold font-weight-bolder">
+                <span class="text-page">514</span>
+            Kota
             </span>
-           <span class="kec">
-               <span>6675</span>
+           <span>
+               <span class="kec">6675</span>
                Kecamatan
-           </span> 
+           </span>
+        </p> 
 
         
 
         @endsection    
 
 @section('texter')
-
+        <div>
+            <h1>
+                PPDB Online
+            </h1>
+        </div>
  
     
 @endsection
