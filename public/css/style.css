@@ -17,3 +17,16 @@
 .kec {
   color: brown;
 }
+.list-sekolah {
+  text-align: center;
+}
+
+.list-sekolah li {
+  padding: 1rem;
+  width: 145px;
+  display: inline-block;
+}
+
+.list-sekolah img {
+  max-width: 100%;
+}
