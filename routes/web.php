@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\IndexController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,13 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index', [
-        "image" => "logosekolahpedia.png",
-        "title" => "home"
-    ]);
-        
-});
+Route::get('/', [IndexController::class, 'index']);
 
 Route::get('/daftar-sekolah', function () {
     return view('search');
